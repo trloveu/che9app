@@ -20,12 +20,12 @@
                 android:layout_margin="3dp"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:background="@drawable/shape_button" />
             <TextView
                 android:id="@+id/top_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:text="CHE9000"
                 android:textSize="20sp"
                 android:gravity="center"
@@ -36,7 +36,7 @@
                 android:layout_margin="3dp"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="match_content"
+                android:layout_height="50dp"
                 android:background="@drawable/shape_button"
                 android:drawableLeft="@drawable/icon_menu" />
         </TableRow>
