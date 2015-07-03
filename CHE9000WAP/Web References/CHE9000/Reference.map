@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://120.25.156.238/CHE9000SER/CHE9000.asmx?wsdl" filename="CHE9000.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://120.25.156.238/CHE9000SER/CHE9000.asmx?disco" filename="CHE9000.disco" />
+  </Results>
+</DiscoveryClientResultsFile>

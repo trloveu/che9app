@@ -1,0 +1,296 @@
+﻿body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {margin:0;padding:0;}
+body,button,input,select,textarea {font:12px/1.5 tahoma,sans-serif;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+label,input,select {vertical-align:middle;}
+address,cite,em {font-style:normal;}
+fieldset,img {border:none;}
+ul,ol {list-style:none;}
+table {border-collapse:collapse}
+sub {vertical-align:text-bottom;}
+sup {position:relative;top:-1px;left:2px;font:11px/normal tahoma;vertical-align:text-top;}
+small {font-size:12px;}
+legend {color:#333;}
+body {color:#333}
+a, a:visited {text-decoration:none;color:#3567CA;}
+a:hover{text-decoration:underline;color:#FF6600;}
+li a, li a:visited {text-decoration:none;color:#333}
+li a:hover{text-decoration:underline;color:#FF6600;}
+
+/* start: header-------------------------------*/
+.head-wrap {margin:0 auto;width:100%; position:relative; z-index:1000;background-color: #ff7f00;}
+.clearfix:after {content:".";display:block;clear:both;height:0;visibility:hidden;}
+.clearfix {_height:1%;display:block;float:left;} 
+.navgation ul{ padding-left:11px;height:35px;overflow: hidden;}
+.navgation li{float:left;}
+.navgation li a{color:#FFF!important; font-size:14px; font-weight:700;float:left;height:25px;margin:5px 2px 0;padding:0 15px 5px; line-height:25px; _height:30px; _padding:0 20px; _line-height:30px;}
+.navgation li a:hover{ background:#f93; text-decoration:none;}
+.navgation li.current a,.navgation li.current a:hover{float:left; color:#333!important; overflow: hidden; background:#fff;}
+/*-------------------------------end: header */ 
+  
+
+        
+        
+        
+        
+
+/* start: common
+-------------------------------*/
+.clearfix:after { content: "."; display: block;font-size:0;line-height:0; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-table;zoom:1;}
+/* Hides from IE-mac \*/
+.clearfix {_height: 1%;display: block;}
+.c-black,.c-black:visited,.c-black a{color:#000;}
+.c-blue,.c-blue:visited,.c-blue a{color:#1E50A2;}
+.c-red,.c-red:visited,.c-red a{color:Red;}
+.c-dred,.c-dred:visited,.c-dred a{color:#BA2636;}
+.c-yellow,.c-yellow:visited,.c-yellow a{color:#f50;}
+.c-orange,.c-orange:visited,.c-orange a{color:#f56622;}
+.c-black a:hover,.c-blue a:hover,.c-red a:hover,.c-dred a:hover,c-yellow a:hover,.c-orange{color:#FF6600;}
+.fB{font-weight:bold;}
+.fN{font-weight:normal;}
+.fI{font-style: italic;}
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+.fleft{float:left;}
+.fright{float:right;}
+.tleft{text-align:left;}
+.tright{text-align:right;}
+.tcenter{text-align:center;}
+.blank5{ font-size:5; line-height:5;}
+.blank10{ font-size:10; line-height:10;}
+.margin10{ margin-left:10px;}
+/*-------------------------------
+  end: common */
+  
+/*----------------------------
+ * start module
+*----------------------------- */
+.box {margin-bottom:10px;position:relative;}
+/* default gray box  */
+.box .hd, .box .rc-tp, .box .rc-tp span, .box .rc-bt, .box .rc-bt span {background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/box/seller-box-bg.jpg) no-repeat scroll 0 0;}
+.box .rc-tp, .box .rc-bt {display:block;height:4px;position:relative; z-index:9;}
+.box .rc-tp span, .box .rc-bt span {float:right;height:4px;width:4px;}
+.box .rc-tp {background-position:-3px 0;margin-bottom:-4px;}
+.box .rc-tp span{background-position:0 0;}
+.box .rc-bt {background-position:-3px -3px;margin-top:-4px;}
+.box .rc-bt span {background-position:0 -3px;}
+.box .hd { position:relative; height:25px; border-color:#ccc #ccc #ccc; border-style:solid solid none; border-width:1px 1px medium; background-color:#FBFBFB; background-position:0 -7px; background-repeat:repeat-x;}
+.box .hd h3 {color:#404040;font-size:12px;line-height:25px;padding-left:10px;}
+.box .hd h3 a{text-decoration:none;float:right; font:normal 12px/25px "宋体"; margin:0 10px 0 0; padding:0; background:none;}
+.box .hd span.more{ background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/bg/more.gif) no-repeat scroll right -991px;float:right;height:25px;padding-right:10px; margin-right:5px; display:inline;}
+.box .hd span.more a{font-size:12px;font-weight:normal;line-height:25px;}
+.box .bd {background-color:#F7F7F7;border:1px solid #CCCCCC;padding: 7px 11px;}
+.box .rc-tp, .box .rc-tp span, .box .rc-bt, .box .rc-bt span {line-height:0;font-size:0;}
+.main-box .hd{height:34px; line-height:34px; background:url(http://i02.i.aliimg.com/images/eng/wholesale/seller/bg_title.gif) repeat-x 0 0;}
+.main-box .hd h3{height:34px; line-height:34px; font-size:14px;}
+
+/* Orange box */
+.boxO .hd, .boxO .rc-tp, .boxO .rc-tp span, .boxO .rc-bt, .boxO .rc-bt span {background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/box/seller-box-bg.jpg) repeat-x scroll 0 -60px;}
+.boxO .rc-tp {background-position:-3px -60px;}
+.boxO .rc-tp span{background-position:0 -60px;}
+.boxO .rc-bt {background-position:-3px -63px;}
+.boxO .rc-bt span {background-position:0 -63px;}
+.boxO .hd {background-position:0 -67px;border-color:#ffcc7e #ffcc7e #ffcc7e;}
+.boxO .bd {background-color:#fff;border:1px solid #ffcc7e;}
+
+/* box-yellow */
+.box-yellow .hd, .box-yellow .rc-tp, .box-yellow .rc-tp span, .box-yellow .rc-bt, .box-yellow .rc-bt span {background:transparent url(http://i02.i.aliimg.com/images/cms/upload/seller/box/seller_box_bg.jpg) no-repeat scroll 0 0;}
+.box-yellow .rc-tp {background-position:-3px -60px;}
+.box-yellow .rc-tp span{background-position:0 -60px;}
+.box-yellow .rc-bt {background-position:-3px -63px;}
+.box-yellow .rc-bt span {background-position:0 -63px;}
+.box-yellow .hd {background-color:#f1b455;background-position:0 -67px; background-repeat:repeat-x;border-color:#ffcc81 #ffcc81 #ffcc81;}
+.box-yellow .hd h3 ,.box-yellow .hd h3 a{color:#a1400b;}
+.box-yellow .bd {background-color:#fffbf2;border:1px solid #ffcc81;}
+
+/* DYellow big box */
+.boxDY .hd, .boxDY .rc-tp, .boxDY .rc-tp span, .boxDY .rc-bt, .boxDY .rc-bt span {background:#fdd888 url(http://i02.i.aliimg.com/images/eng/wholesale/box/seller-box-bg2.jpg) no-repeat scroll 0 -30px;}
+.boxDY .rc-tp, .boxDY .rc-bt {display:block;height:8px;position:relative;}
+.boxDY .rc-tp span, .boxDY .rc-bt span {float:right;height:8px;width:8px;}
+.boxDY .rc-tp {background-position:-7px -30px; margin-bottom:-8px;}
+.boxDY .rc-tp span{background-position:0 -30px;}
+.boxDY .rc-bt {background-position:-7px -37px; margin-top:-8px;}
+.boxDY .rc-bt span {background-position:0 -37px;}
+.boxDY .bd {background-color:#fdd888;border:1px solid #fdd888;padding:10px 15px;}
+
+/* LRed big box */
+.boxLR .hd, .boxLR .rc-tp, .boxLR .rc-tp span, .boxLR .rc-bt, .boxLR .rc-bt span {background:#fbebd5 url(http://i02.i.aliimg.com/images/eng/wholesale/box/seller-box-bg2.jpg) no-repeat scroll 0 -30px;}
+.boxLR .rc-tp, .boxLR .rc-bt {display:block;height:8px;position:relative;}
+.boxLR .rc-tp span, .boxLR .rc-bt span {float:right;height:8px;width:8px;}
+
+.boxLR .rc-tp {background-position:-7px 0px; margin-bottom:-8px;}
+.boxLR .rc-tp span{background-position:0 0px;}
+.boxLR .rc-bt {background-position:-7px -7px; margin-top:-8px;}
+.boxLR .rc-bt span {background-position:0 -7px;}
+
+.boxLR .bd {background-color:#fbebd5;border:1px solid #fbebd5;padding:10px 15px;}
+
+/*  - price */
+.price  .currency,.price  .value,.price  .comment{color:#BD1A1D;font-weight:bold;}
+.price  .separator,.price  .unit{color:#666;font-weight:normal;}
+.price-s,.price-s  .currency,.price-s  .value,.price-s  .separator,.price-s  .unit,.price-s  .comment{font-size:12px;}
+.price-m,.price-m  .currency,.price-m  .value,.price-m  .separator,.price-m  .unit,.price-m  .comment{font-size:14px;}
+.price-l,.price-l  .currency,.price-l  .value,.price-l  .separator,.price-l  .unit,.price-l  .comment{font-size:16px;}
+.price-xl,.price-xl  .currency,.price-xl  .value,.price-xl  .separator,.price-xl  .unit,.price-xl  .comment{font-size:18px;}
+.price-thin,.price-thin  .currency,.price-thin  .value,.price-thin  .separator,.price-thin  .unit,.price-thin  .comment{font-weight:normal;color:#000;}
+.price-del,.price-del  .currency,.price-del  .value{font-weight:normal;color:#666;}
+
+
+/*----------------------------
+ * end module
+*----------------------------- */
+
+/* part
+--------------------------------------------------------*/
+.part{ margin-bottom:10px;}
+.banner{ margin-bottom:10px;}
+.banner img{ display:block;}
+
+#bd{ position:relative;}
+.box .more {padding-right:5px;text-align:right;background:#fff;}
+/* - items new-s  
+------------------------------------*/ 
+.items{ padding-bottom:3px;}
+.items li{padding-left:12px; line-height:21px;background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/icon/seller-dot01.jpg) no-repeat scroll 0 6px;}
+/*------------------------------------
+  end items */ 
+
+/* - bulletin
+------------------------------------*/ 
+#bulletin-con{ border:1px solid #cecece;width:668px; padding:15px 20px 90px; overflow:hidden; }
+#bulletin-con img{max-width:648px;}
+
+#bulletin-con h3{ font-size:18px; font-weight:bold;border-bottom:1px solid #e5e5e5;line-height:25px; padding-bottom:8px;text-align:center;}
+#bulletin-con span{display:block;line-height:25px; padding-bottom:10px;text-align:center;}
+#bulletin-con p{padding:5px 10px;font-size:14px; line-height:23px; color:#000;}
+/*------------------------------------
+  end bulletin */ 
+   
+/* - hot-recommend
+------------------------------------*/ 
+#hot-recommend{}
+#hot-recommend .items li{ line-height:20px;}
+#hot-recommend .items li a{color:#06c; }
+#hot-recommend .items li a:hover{color:#f60;text-decoration:underline; }
+/*------------------------------------
+  end hot-recommend */ 
+   
+/* - channel-link
+------------------------------------*/ 
+#channel-link{zoom:1;}
+#channel-link h3{ font-size:12px;line-height:25px; color:#a1410e; padding-bottom:8px;}
+#channel-link .items li{ line-height:30px;padding-left:0px;background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/bg/line03.jpg) repeat-x scroll 0 bottom;}
+#channel-link .items li.last{background:none;}
+#channel-link .items li a{ font-size:14px; font-weight:bold;color:#06c;padding-left:12px; line-height:30px; background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/icon/seller-dot04.jpg) no-repeat scroll 0 50%;}
+#channel-link .items li a:hover{color:#f60;text-decoration:underline; }
+/*------------------------------------
+   end channel-link */ 
+   
+/*  - ask-box
+-------------------------------*/
+#ask-box, #ask-box-form{ zoom:1; }
+#ask-box .bd{ padding:10px 18px;}
+#ask-box .hint{ color:#BEBEBE; }
+#ask-box-title{ display:block; padding-left:60px; font:bold 14px/40px tahoma; height:40px; background:url(http://i02.i.aliimg.com/images/eng/wholesale/icon/question-icon-1.gif) no-repeat left top; }
+#ask-box-text{ padding:2px 4px; width:180px; height:16px; line-height:16px; }
+#ask-box-submit{  margin:6px 0 0 45px; background:url(http://i02.i.aliimg.com/images/eng/wholesale/seller/ask-submit-btn.gif); border:none; cursor:pointer; text-indent:-10000px; width:92px;height:26px; text-align:center; }
+#ask-box-keyword{ padding-top:5px;}
+#ask-box-keyword a{ color:#06c;}
+#ask-box-keyword a:hover,#ask-box-keyword a:active{ color:#f60;}
+/*-------------------------------
+  end ask-box */
+
+/* main body
+--------------------------------------------------------*/
+/*  start: index-promo-cycle
+-------------------------------*/
+.promo-cycle {margin-bottom:14px;width:710px;height:256px;overflow:hidden;}
+	.promo-cycle ul {width:710px;overflow:hidden;}
+	.cycle-pic {height:230px;}
+		.promo-cycle li {float:left;}
+		.cycle-pic li {width:710px;height:230px;overflow:hidden;}
+	.promo-cycle .cycle-txt {width:712px;}
+		.cycle-txt li {float:left;border-right:1px solid #FFF;border-bottom:1px solid #979797;font:14px/25px simsun;text-align:center;background:#A3A3A3;}
+		.promo-item-2 .cycle-txt li {width:236px;}
+		.promo-item-3 .cycle-txt li {width:236px;}
+		.promo-item-3 .cycle-txt li {width:237px;}
+		.cycle-txt .current {border-bottom:none;background:#FFF;}
+			.cycle-txt li a, .cycle-txt li a:visited {text-decoration:none;color:#FFF;}
+			.cycle-txt .current a, .cycle-txt .current a:visited {color:#333;}
+/*-------------------------------
+    end: index-promo-cycle */
+
+#bd {margin:0 auto;padding-top:10px;width:950px;zoom:1;}
+#bd:after {content:"";display:block;clear:both;height:0px;visibility:hidden;}
+.crumbs {color:#000000;font-size:12px;line-height:14px;padding-top:8px;margin:0 auto;width:950px;}
+.crumbs a{color:#06c; }
+.crumbs a:hover{color:#f60;text-decoration:underline; }
+/* footer 
+--------------------------------------------------------*/
+#ft-progress{width:950px;margin:0 auto 10px;font-size:0;line-height:0;}
+#ft {clear:both;color:#666;margin:0px auto;text-align:center;width:950px; padding-bottom:50px; border-top:2px solid #cdcdcd;}
+#ft a{ color:#00359c;}
+#ft a:hover {color:#FF6600;text-decoration:underline;}
+.ali-group {margin:10px auto 5px;width:100%;}
+.foot-nav {height:20px;margin:10px auto 0; text-align:center;}
+#seller-slogon {float:left;padding:0 0 0 10px;}
+.grand-ceremony {margin-top:-12px;}
+
+/* - old promotion
+--------------------------------------------------------*/
+#hd {position:relative;margin:0 auto;width:950px;}
+#logo-zone {height:60px;}
+/* start: new header */
+#ws-hd{}
+#hd-inner{width:950px;margin:0 auto;}
+#ws-logo-zone{padding:11px 0 9px 0;}
+#ws-seller-logo{float:left;display:inline;margin:0;padding:0;width:309px;height:40px;overflow:hidden;background:url(http://i02.i.aliimg.com/images/eng/wholesale/other/seller_aliexpress_logo.gif) no-repeat 0 0;text-indent:-999px;}
+#ws-seller-logo a{display:block; height:100%; margin:0;padding:0;border:0;text-decoration:none; outline:none;}
+#ws-seller-slogon{float:left;display:inline;margin:0 0 0 10px;}
+#ws-seller-tool{float:right;display:inline;height:15px;font-size:12px;line-height:15px;margin:7px 0 0 0;padding:0;}
+#ws-seller-tool a{margin:0 5px;font-size:12px;line-height:12px;text-decoration:none;}
+#ws-seller-tool a:hover{ text-decoration:underline;}
+#seller-logo{ position:absolute; left:0 ;top:11px; margin:0;padding:0;border:0; width:309px; height:40px; background:url(http://i02.i.aliimg.com/images/eng/wholesale/icon/logo_stable_seller.gif) no-repeat left top ;overflow:hidden;text-indent:-999px;}
+#seller-title{position:absolute; left:223px ;top:11px;  margin:0;padding:0;border:0;width:177px; height:38px;background:url(http://i02.i.aliimg.com/images/eng/wholesale/other/seller-title.jpg) no-repeat left top ;overflow:hidden;text-indent:-999px; }
+#seller-logo a, #seller-title a{ display:block; height:100%; margin:0;padding:0;border:0;text-decoration:none; outline:none;}
+#seller-tool{position:absolute; right:0 ;top:18px;  height:18px; text-align:right;}
+#seller-tool a{ line-height:18px; text-decoration:none;}
+#seller-tool a:hover{ text-decoration:underline;}
+/*----------------------------------------------------
+end  promotion */
+
+/* - story
+--------------------------------------------------------*/
+#story-s .bd {position:relative;padding:10px 10px 0;zoom:1;overflow:hidden;}
+#story-s .story {width:auto;margin:0 0 15px;overflow:hidden;}
+#story-s .left .story-img {float:left;position:relative;}
+#story-s .right .story-img {float:right;}
+#story-s .story-img {border:1px solid #ccc;padding:1px;}
+#story-s .left .top {padding-left:5px;height:60px;overflow:hidden;}
+#story-s .right .top {margin:0 65px 0 0;}
+#story-s .story .top h3 {margin:0 0 5px 0;font:800 12px/17px tahoma;}
+/*#story-s .story .top h3 a, #story-s .story .top h3 a:visited {text-decoration:none;color:#985B00;}*/
+#story-s .story .txt {margin:0;position:relative;width:206px;color:#666;overflow:hidden;}
+#story-s .story .txt a {position:absolute;z-index:0;display:block;right:0;bottom:0;padding:0 0 0 5px;background:none;}
+#story-2 {margin-bottom:5px;}
+#story-s .more {background:transparent url(http://i02.i.aliimg.com/images/cms/upload/wholesale/promotion/2009/valentine/design/arrow_r.gif) no-repeat scroll right 3px;padding-right:15px;text-align:right;}
+/*----------------------------------------------------
+  end  story */
+
+/* - box-dynamic
+--------------------------------------------------------*/
+.box-dynamic {position:relative;}
+.box-dynamic .bd {padding:5px 10px;}
+.box-dynamic li {padding:1px 0 1px 14px;background:url(http://i02.i.aliimg.com/images/eng/wholesale/seller/extra-point.gif) no-repeat 2px 9px;}
+.box-dynamic .more-link {position:absolute;top:5px;right:10px;height:15px;padding-right:10px;background:url(http://i02.i.aliimg.com/images/eng/wholesale/seller/extra-arrow.gif) no-repeat right 6px;}
+/*----------------------------------------------------
+  end box-dynamic */
+  
+/* style for new structure */
+.title14{font:bold 14px/22px "宋体"; color:#333;}
+.list-items{padding-bottom:3px;}
+.list-items li{line-height:22px; padding-left:12px; background:transparent url(http://i02.i.aliimg.com/images/eng/wholesale/icon/seller-dot01.jpg) no-repeat scroll 0 9px;}
+.list-items li a{font-size:12px;}
+.link-title-l,.link-title-l:visited{font:bold 14px/22px "宋体"; color:#333;}
+.link-title-s,.link-title-s:visited{color:#3567CA;}
+.link-title-d,.link-title-d:visited{color:#333;}

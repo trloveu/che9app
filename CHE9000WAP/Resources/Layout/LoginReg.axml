@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:id="@+id/LoginReg_Back"
+        android:text="返回"
+        android:textStyle="bold"
+        android:textColor="#C0B000"
+        android:gravity="right"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="普通用户"
+            android:id="@+id/LoginReg_REGTYPECLIENT" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专业用户"
+            android:id="@+id/LoginReg_REGTYPESERVE" />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/LoginReg_USERTEL"
+        android:layout_width="fill_parent"
+        android:textColorHint="#AAAAAA"
+        android:layout_weight="1"
+        android:layout_height="36dp"
+        android:padding="5dip"
+        android:layout_margin="5dp"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="请输入手机号" />
+    <Button
+        android:id="@+id/LoginReg_GETTELMARK"
+        android:text="获取短信 "
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:id="@+id/LoginReg_USERTELMARK"
+        android:layout_width="fill_parent"
+        android:textColorHint="#AAAAAA"
+        android:layout_weight="1"
+        android:layout_height="36dp"
+        android:padding="5dip"
+        android:layout_margin="5dp"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="请输入短信验证码" />
+    <EditText
+        android:id="@+id/LoginReg_USERPASSWORD"
+        android:layout_width="fill_parent"
+        android:textColorHint="#AAAAAA"
+        android:layout_weight="1"
+        android:layout_height="36dp"
+        android:padding="5dip"
+        android:layout_margin="5dp"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="请输入密码" />
+    <EditText
+        android:id="@+id/LoginReg_USERPASSCONFRM"
+        android:layout_width="fill_parent"
+        android:textColorHint="#AAAAAA"
+        android:layout_weight="1"
+        android:layout_height="36dp"
+        android:padding="5dip"
+        android:layout_margin="5dp"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="请确认密码" />
+    <Button
+        android:id="@+id/LoginReg_SUBMIT"
+        android:text="确定注册 "
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

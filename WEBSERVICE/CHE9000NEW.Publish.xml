@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WORK\TR\CAR9000\OK\V0.60(150701)\WebSite" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="06/30/2015 10:19:23" />
+    <file relUrl="CSSJS/CalendarTime.js" publishTime="06/29/2015 19:48:15" />
+    <file relUrl="WSB/TestEdit.aspx" publishTime="06/29/2015 21:44:22" />
+    <file relUrl="WSB/PageDgList.ascx" publishTime="06/29/2015 21:52:17" />
+    <file relUrl="WSB/TestList.aspx" publishTime="06/29/2015 21:54:32" />
+    <file relUrl="bin/CHE9000NEW.pdb" publishTime="07/01/2015 13:56:35" />
+    <file relUrl="CSSJS/img/sprite.png" publishTime="06/29/2015 19:48:15" />
+    <file relUrl="CSSJS/main.css" publishTime="06/29/2015 19:48:15" />
+    <file relUrl="CSSJS/PageScript.js" publishTime="06/29/2015 19:48:15" />
+    <file relUrl="CSSJS/style.css" publishTime="06/29/2015 19:48:15" />
+    <file relUrl="bin/CHE9000NEW.dll" publishTime="07/01/2015 13:56:35" />
+    <file relUrl="CHE9000SER/CHE9000.asmx" publishTime="06/30/2015 10:22:09" />
+    <file relUrl="CSSJS/img/bjtp2.gif" publishTime="06/29/2015 19:48:15" />
+  </publishProfile>
+</publishData>

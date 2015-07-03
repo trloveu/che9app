@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ServerDBQueryOne">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strProcName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsIN">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerDBQueryOneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerDBQueryOneResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerDBQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strProcName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsIN">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerDBQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerDBQueryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerDBExec">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strProcName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsIN">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerDBExecResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerDBExecResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerPICSave">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iBillID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="iType" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFILEByte" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerPICSaveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerPICSaveResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerPICReadByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iFileID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerPICReadByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerPICReadByIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerPICReadByType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iBillID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="iType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerPICReadByTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerPICReadByTypeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ServerDBQueryOneSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerDBQueryOne" />
+  </wsdl:message>
+  <wsdl:message name="ServerDBQueryOneSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerDBQueryOneResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerDBQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:ServerDBQuery" />
+  </wsdl:message>
+  <wsdl:message name="ServerDBQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:ServerDBQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerDBExecSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerDBExec" />
+  </wsdl:message>
+  <wsdl:message name="ServerDBExecSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerDBExecResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerPICSaveSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerPICSave" />
+  </wsdl:message>
+  <wsdl:message name="ServerPICSaveSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerPICSaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerPICReadByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerPICReadByID" />
+  </wsdl:message>
+  <wsdl:message name="ServerPICReadByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerPICReadByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerPICReadByTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerPICReadByType" />
+  </wsdl:message>
+  <wsdl:message name="ServerPICReadByTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerPICReadByTypeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CHE9000Soap">
+    <wsdl:operation name="ServerDBQueryOne">
+      <wsdl:input message="tns:ServerDBQueryOneSoapIn" />
+      <wsdl:output message="tns:ServerDBQueryOneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerDBQuery">
+      <wsdl:input message="tns:ServerDBQuerySoapIn" />
+      <wsdl:output message="tns:ServerDBQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerDBExec">
+      <wsdl:input message="tns:ServerDBExecSoapIn" />
+      <wsdl:output message="tns:ServerDBExecSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICSave">
+      <wsdl:input message="tns:ServerPICSaveSoapIn" />
+      <wsdl:output message="tns:ServerPICSaveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICReadByID">
+      <wsdl:input message="tns:ServerPICReadByIDSoapIn" />
+      <wsdl:output message="tns:ServerPICReadByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICReadByType">
+      <wsdl:input message="tns:ServerPICReadByTypeSoapIn" />
+      <wsdl:output message="tns:ServerPICReadByTypeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CHE9000Soap" type="tns:CHE9000Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ServerDBQueryOne">
+      <soap:operation soapAction="http://tempuri.org/ServerDBQueryOne" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerDBQuery">
+      <soap:operation soapAction="http://tempuri.org/ServerDBQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerDBExec">
+      <soap:operation soapAction="http://tempuri.org/ServerDBExec" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICSave">
+      <soap:operation soapAction="http://tempuri.org/ServerPICSave" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICReadByID">
+      <soap:operation soapAction="http://tempuri.org/ServerPICReadByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICReadByType">
+      <soap:operation soapAction="http://tempuri.org/ServerPICReadByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CHE9000Soap12" type="tns:CHE9000Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ServerDBQueryOne">
+      <soap12:operation soapAction="http://tempuri.org/ServerDBQueryOne" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerDBQuery">
+      <soap12:operation soapAction="http://tempuri.org/ServerDBQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerDBExec">
+      <soap12:operation soapAction="http://tempuri.org/ServerDBExec" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICSave">
+      <soap12:operation soapAction="http://tempuri.org/ServerPICSave" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICReadByID">
+      <soap12:operation soapAction="http://tempuri.org/ServerPICReadByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerPICReadByType">
+      <soap12:operation soapAction="http://tempuri.org/ServerPICReadByType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CHE9000">
+    <wsdl:port name="CHE9000Soap" binding="tns:CHE9000Soap">
+      <soap:address location="http://localhost:31299/CHE9000SER/CHE9000.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CHE9000Soap12" binding="tns:CHE9000Soap12">
+      <soap12:address location="http://localhost:31299/CHE9000SER/CHE9000.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

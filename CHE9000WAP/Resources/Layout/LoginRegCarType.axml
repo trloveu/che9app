@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/LoginRegCarType_Back"
+        android:text="返回"
+        android:textStyle="bold"
+        android:textColor="#C0B000"
+        android:gravity="right"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/LoginRegCarType_Next"
+        android:text="下一步"
+        android:textStyle="bold"
+        android:textColor="#C0B000"
+        android:gravity="right"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="请设置故障查询品牌范围"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginRegCarType_TITLE" />
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginRegCarType_USERCHECK" />
+</LinearLayout>

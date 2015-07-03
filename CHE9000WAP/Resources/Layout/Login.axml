@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:id="@+id/Login_EXIT"
+        android:text="退出"
+        android:textStyle="bold"
+        android:textColor="#C0B000"
+        android:gravity="right"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="请输入登录手机号"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/Login_USERNAME"
+        android:layout_width="fill_parent"
+        android:textColorHint="#AAAAAA"
+        android:layout_weight="1"
+        android:layout_height="36dp"
+        android:padding="5dip"
+        android:layout_margin="5dp"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="请输入" />
+    <TextView
+        android:text="请输入登录密码"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/Login_USERPASS"
+        android:layout_width="fill_parent"
+        android:textColorHint="#AAAAAA"
+        android:layout_weight="1"
+        android:layout_height="36dp"
+        android:padding="5dip"
+        android:layout_margin="5dp"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:hint="请输入密码" />
+    <Button
+        android:id="@+id/Login_USERLOGIN"
+        android:text="登  录 "
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/Login_REGUSER"
+        android:text="注册"
+        android:textStyle="bold"
+        android:textColor="#C0B000"
+        android:gravity="right"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Login_GETPASS"
+        android:text="忘记密码"
+        android:textStyle="bold"
+        android:textColor="#C0B000"
+        android:gravity="right"
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="普通用户跳过登录"
+            android:id="@+id/Login_REGTYPECLIENT" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专业用户跳过登录"
+            android:id="@+id/Login_REGTYPESERVE" />
+    </RadioGroup>
+</LinearLayout>
