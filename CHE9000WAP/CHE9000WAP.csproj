@@ -226,6 +226,13 @@
     <AndroidResource Include="Resources\Drawable\icon_menu.png" />
     <AndroidResource Include="Resources\Drawable\icon_user_act.png" />
     <AndroidResource Include="Resources\Drawable\Icon.png" />
+    <AndroidResource Include="Resources\Drawable\shape_black.xml" />
+    <AndroidResource Include="Resources\Drawable\icon_search.png" />
+    <AndroidResource Include="Resources\Drawable\icon_share_act.png" />
+    <AndroidResource Include="Resources\Drawable\icon_search_act.png" />
+    <AndroidResource Include="Resources\Drawable\icon_setting.png" />
+    <AndroidResource Include="Resources\Drawable\icon_setting_act.png" />
+    <AndroidResource Include="Resources\Drawable\icon_share.png" />
     <None Include="Web References\CHE9000\CHE9000.disco" />
   </ItemGroup>
   <ItemGroup>
