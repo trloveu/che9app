@@ -28,7 +28,7 @@
                 android:layout_height="50dp"
                 android:text="CHE9000"
                 android:textSize="20sp"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:textColor="@color/white" />
         </TableRow>
     </TableLayout>
