@@ -253,22 +253,43 @@ namespace CHE9000WAP
 			public const int icon_menu_act = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int icon_user = 2130837511;
+			public const int icon_search = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int icon_user_act = 2130837512;
+			public const int icon_search_act = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int shape_bottom_corner_no_top_line = 2130837513;
+			public const int icon_setting = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int shape_button = 2130837514;
+			public const int icon_setting_act = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int shape_no_corner_without_bottom = 2130837515;
+			public const int icon_share = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int shape_top_corner_no_bottom_line = 2130837516;
+			public const int icon_share_act = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int icon_user = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int icon_user_act = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int shape_black = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int shape_bottom_corner_no_top_line = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int shape_button = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int shape_no_corner_without_bottom = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int shape_top_corner_no_bottom_line = 2130837523;
 			
 			static Drawable()
 			{
@@ -334,26 +355,26 @@ namespace CHE9000WAP
 			// aapt resource value: 0x7f060011
 			public const int Flash_ImgEnter = 2131099665;
 			
-			// aapt resource value: 0x7f06001d
-			public const int LoginPass_BACK = 2131099677;
-			
-			// aapt resource value: 0x7f06001f
-			public const int LoginPass_GETTELMARK = 2131099679;
-			
-			// aapt resource value: 0x7f060023
-			public const int LoginPass_SUBMIT = 2131099683;
-			
-			// aapt resource value: 0x7f060022
-			public const int LoginPass_USERPASSCONFRM = 2131099682;
-			
-			// aapt resource value: 0x7f060021
-			public const int LoginPass_USERPASSWORD = 2131099681;
+			// aapt resource value: 0x7f06001c
+			public const int LoginPass_BACK = 2131099676;
 			
 			// aapt resource value: 0x7f06001e
-			public const int LoginPass_USERTEL = 2131099678;
+			public const int LoginPass_GETTELMARK = 2131099678;
+			
+			// aapt resource value: 0x7f060022
+			public const int LoginPass_SUBMIT = 2131099682;
+			
+			// aapt resource value: 0x7f060021
+			public const int LoginPass_USERPASSCONFRM = 2131099681;
 			
 			// aapt resource value: 0x7f060020
-			public const int LoginPass_USERTELMARK = 2131099680;
+			public const int LoginPass_USERPASSWORD = 2131099680;
+			
+			// aapt resource value: 0x7f06001d
+			public const int LoginPass_USERTEL = 2131099677;
+			
+			// aapt resource value: 0x7f06001f
+			public const int LoginPass_USERTELMARK = 2131099679;
 			
 			// aapt resource value: 0x7f06002d
 			public const int LoginRegArea_Back = 2131099693;
@@ -394,131 +415,143 @@ namespace CHE9000WAP
 			// aapt resource value: 0x7f060039
 			public const int LoginRegCarType_USERCHECK = 2131099705;
 			
-			// aapt resource value: 0x7f060024
-			public const int LoginReg_Back = 2131099684;
-			
-			// aapt resource value: 0x7f060028
-			public const int LoginReg_GETTELMARK = 2131099688;
-			
-			// aapt resource value: 0x7f060025
-			public const int LoginReg_REGTYPECLIENT = 2131099685;
-			
-			// aapt resource value: 0x7f060026
-			public const int LoginReg_REGTYPESERVE = 2131099686;
-			
-			// aapt resource value: 0x7f06002c
-			public const int LoginReg_SUBMIT = 2131099692;
-			
-			// aapt resource value: 0x7f06002b
-			public const int LoginReg_USERPASSCONFRM = 2131099691;
-			
-			// aapt resource value: 0x7f06002a
-			public const int LoginReg_USERPASSWORD = 2131099690;
+			// aapt resource value: 0x7f060023
+			public const int LoginReg_Back = 2131099683;
 			
 			// aapt resource value: 0x7f060027
-			public const int LoginReg_USERTEL = 2131099687;
+			public const int LoginReg_GETTELMARK = 2131099687;
+			
+			// aapt resource value: 0x7f060024
+			public const int LoginReg_REGTYPECLIENT = 2131099684;
+			
+			// aapt resource value: 0x7f060025
+			public const int LoginReg_REGTYPESERVE = 2131099685;
+			
+			// aapt resource value: 0x7f06002b
+			public const int LoginReg_SUBMIT = 2131099691;
+			
+			// aapt resource value: 0x7f06002a
+			public const int LoginReg_USERPASSCONFRM = 2131099690;
 			
 			// aapt resource value: 0x7f060029
-			public const int LoginReg_USERTELMARK = 2131099689;
+			public const int LoginReg_USERPASSWORD = 2131099689;
+			
+			// aapt resource value: 0x7f060026
+			public const int LoginReg_USERTEL = 2131099686;
+			
+			// aapt resource value: 0x7f060028
+			public const int LoginReg_USERTELMARK = 2131099688;
 			
 			// aapt resource value: 0x7f06000c
 			public const int Login_EXIT = 2131099660;
 			
-			// aapt resource value: 0x7f060019
-			public const int Login_GETPASS = 2131099673;
-			
-			// aapt resource value: 0x7f06001b
-			public const int Login_REGTYPECLIENT = 2131099675;
-			
-			// aapt resource value: 0x7f06001c
-			public const int Login_REGTYPESERVE = 2131099676;
-			
 			// aapt resource value: 0x7f060018
-			public const int Login_REGUSER = 2131099672;
+			public const int Login_GETPASS = 2131099672;
 			
 			// aapt resource value: 0x7f06001a
-			public const int Login_RadioGroup = 2131099674;
+			public const int Login_REGTYPECLIENT = 2131099674;
+			
+			// aapt resource value: 0x7f06001b
+			public const int Login_REGTYPESERVE = 2131099675;
 			
 			// aapt resource value: 0x7f060017
-			public const int Login_USERLOGIN = 2131099671;
+			public const int Login_REGUSER = 2131099671;
 			
-			// aapt resource value: 0x7f060015
-			public const int Login_USERNAME = 2131099669;
+			// aapt resource value: 0x7f060019
+			public const int Login_RadioGroup = 2131099673;
 			
 			// aapt resource value: 0x7f060016
-			public const int Login_USERPASS = 2131099670;
+			public const int Login_USERLOGIN = 2131099670;
 			
-			// aapt resource value: 0x7f06003c
-			public const int MainClient_CHANGEPASS = 2131099708;
+			// aapt resource value: 0x7f060014
+			public const int Login_USERNAME = 2131099668;
 			
-			// aapt resource value: 0x7f060040
-			public const int MainClient_CHECK = 2131099712;
-			
-			// aapt resource value: 0x7f06003e
-			public const int MainClient_EXIT = 2131099710;
-			
-			// aapt resource value: 0x7f06003d
-			public const int MainClient_EXITALL = 2131099709;
-			
-			// aapt resource value: 0x7f060041
-			public const int MainClient_ORDERLIST = 2131099713;
-			
-			// aapt resource value: 0x7f06003f
-			public const int MainClient_QUERY = 2131099711;
+			// aapt resource value: 0x7f060015
+			public const int Login_USERPASS = 2131099669;
 			
 			// aapt resource value: 0x7f06003a
-			public const int MainClient_USERINFO = 2131099706;
+			public const int MainClient_Back = 2131099706;
 			
-			// aapt resource value: 0x7f06003b
-			public const int MainClient_USERMONEY = 2131099707;
+			// aapt resource value: 0x7f060041
+			public const int MainClient_CHANGEPASS = 2131099713;
 			
-			// aapt resource value: 0x7f060044
-			public const int MainServe_CHANGEPASS = 2131099716;
-			
-			// aapt resource value: 0x7f060049
-			public const int MainServe_CHECK = 2131099721;
-			
-			// aapt resource value: 0x7f06004a
-			public const int MainServe_CHECKLIST = 2131099722;
-			
-			// aapt resource value: 0x7f060046
-			public const int MainServe_EXIT = 2131099718;
-			
-			// aapt resource value: 0x7f060045
-			public const int MainServe_EXITALL = 2131099717;
-			
-			// aapt resource value: 0x7f060047
-			public const int MainServe_QUERY = 2131099719;
-			
-			// aapt resource value: 0x7f060048
-			public const int MainServe_QUERYLIST = 2131099720;
-			
-			// aapt resource value: 0x7f060042
-			public const int MainServe_USERINFO = 2131099714;
+			// aapt resource value: 0x7f06003d
+			public const int MainClient_CHECK = 2131099709;
 			
 			// aapt resource value: 0x7f060043
-			public const int MainServe_USERMONEY = 2131099715;
+			public const int MainClient_EXIT = 2131099715;
+			
+			// aapt resource value: 0x7f060042
+			public const int MainClient_EXITALL = 2131099714;
+			
+			// aapt resource value: 0x7f06003e
+			public const int MainClient_ORDERLIST = 2131099710;
+			
+			// aapt resource value: 0x7f06003c
+			public const int MainClient_QUERY = 2131099708;
+			
+			// aapt resource value: 0x7f06003f
+			public const int MainClient_USERINFO = 2131099711;
+			
+			// aapt resource value: 0x7f060040
+			public const int MainClient_USERMONEY = 2131099712;
+			
+			// aapt resource value: 0x7f06003b
+			public const int MainClient_user = 2131099707;
 			
 			// aapt resource value: 0x7f06004c
-			public const int ServeUserInfo_AREA = 2131099724;
+			public const int MainServe_CHANGEPASS = 2131099724;
+			
+			// aapt resource value: 0x7f060048
+			public const int MainServe_CHECK = 2131099720;
+			
+			// aapt resource value: 0x7f060049
+			public const int MainServe_CHECKLIST = 2131099721;
 			
 			// aapt resource value: 0x7f06004e
-			public const int ServeUserInfo_BANK = 2131099726;
+			public const int MainServe_EXIT = 2131099726;
 			
 			// aapt resource value: 0x7f06004d
-			public const int ServeUserInfo_CARTYPE = 2131099725;
+			public const int MainServe_EXITALL = 2131099725;
+			
+			// aapt resource value: 0x7f060046
+			public const int MainServe_QUERY = 2131099718;
+			
+			// aapt resource value: 0x7f060047
+			public const int MainServe_QUERYLIST = 2131099719;
+			
+			// aapt resource value: 0x7f06004a
+			public const int MainServe_USERINFO = 2131099722;
 			
 			// aapt resource value: 0x7f06004b
-			public const int ServeUserInfo_EXIT = 2131099723;
+			public const int MainServe_USERMONEY = 2131099723;
+			
+			// aapt resource value: 0x7f060044
+			public const int MainServer_Back = 2131099716;
+			
+			// aapt resource value: 0x7f060045
+			public const int MainServer_user = 2131099717;
+			
+			// aapt resource value: 0x7f060050
+			public const int ServeUserInfo_AREA = 2131099728;
+			
+			// aapt resource value: 0x7f060052
+			public const int ServeUserInfo_BANK = 2131099730;
+			
+			// aapt resource value: 0x7f060051
+			public const int ServeUserInfo_CARTYPE = 2131099729;
+			
+			// aapt resource value: 0x7f06004f
+			public const int ServeUserInfo_EXIT = 2131099727;
 			
 			// aapt resource value: 0x7f060012
 			public const int textView1 = 2131099666;
 			
-			// aapt resource value: 0x7f060013
-			public const int top_bar = 2131099667;
+			// aapt resource value: 0x7f06002c
+			public const int top_bar = 2131099692;
 			
-			// aapt resource value: 0x7f060014
-			public const int top_text = 2131099668;
+			// aapt resource value: 0x7f060013
+			public const int top_text = 2131099667;
 			
 			static Id()
 			{
@@ -638,6 +671,12 @@ namespace CHE9000WAP
 			
 			// aapt resource value: 0x7f050000
 			public const int Hello = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int getpasstitle = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int regtitle = 2131034114;
 			
 			static String()
 			{
