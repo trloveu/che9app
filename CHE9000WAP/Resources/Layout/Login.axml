@@ -14,7 +14,7 @@
             android:gravity="center_vertical"
             android:background="@drawable/orange">
             <Button
-                android:text="返回"
+                android:text="退出"
                 android:id="@+id/Login_EXIT"
                 android:textSize="16sp"
                 android:layout_margin="3dp"
@@ -30,15 +30,6 @@
                 android:textSize="20sp"
                 android:gravity="center"
                 android:textColor="@color/white" />
-            <Button
-                android:id="@+id/Login_userinfo"
-                android:textSize="16sp"
-                android:layout_margin="3dp"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:background="@drawable/shape_button"
-                android:drawableLeft="@drawable/icon_menu" />
         </TableRow>
     </TableLayout>
 <!-- content -->
@@ -74,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:layout_height="36dp"
+                android:layout_height="50dp"
                 android:background="@drawable/bg_edittext"
                 android:padding="5dip"
                 android:layout_margin="10dp"
@@ -91,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:layout_height="36dp"
+                android:layout_height="50dp"
                 android:background="@drawable/bg_edittext"
                 android:padding="5dip"
                 android:layout_margin="10dp"
