@@ -9,7 +9,8 @@
         android:src="@drawable/Icon"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Flash_ImgEnter" />
+        android:id="@+id/Flash_ImgEnter"
+        android:layout_marginTop="150dp" />
     <TextView
         android:text="che9000"
         android:textAppearance="?android:attr/textAppearanceMedium"
