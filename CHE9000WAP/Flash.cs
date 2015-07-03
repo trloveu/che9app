@@ -10,7 +10,7 @@ using Android.OS;
 
 namespace CHE9000WAP
 {
-    [Activity(Label = "CHE9000", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "CHE9000", MainLauncher = true, Icon = "@drawable/icon_logo")]
     public class Flash : Activity
     {
         #region pageLoad
