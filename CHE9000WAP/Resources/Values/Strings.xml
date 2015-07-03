@@ -2,4 +2,6 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">CHE9000WAP</string>
+    <string name="regtitle">用户注册</string>
+    <string name="getpasstitle">找回密码</string>
 </resources>

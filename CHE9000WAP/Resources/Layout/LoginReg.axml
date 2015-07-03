@@ -3,72 +3,100 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <TextView
-        android:id="@+id/LoginReg_Back"
-        android:text="返回"
-        android:textStyle="bold"
-        android:textColor="#C0B000"
-        android:gravity="right"
-        android:padding="5dip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    android:background="@color/white">
+<!-- top bar -->
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow
+            android:gravity="center_vertical"
+            android:background="@color/orange">
+            <Button
+                android:text="返回"
+                android:id="@+id/LoginReg_Back"
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/regtitle"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
     <RadioGroup
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_black">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="普通用户"
-            android:id="@+id/LoginReg_REGTYPECLIENT" />
+            android:id="@+id/LoginReg_REGTYPECLIENT"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="专业用户"
-            android:id="@+id/LoginReg_REGTYPESERVE" />
+            android:id="@+id/LoginReg_REGTYPESERVE"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp" />
     </RadioGroup>
     <EditText
         android:id="@+id/LoginReg_USERTEL"
         android:layout_width="fill_parent"
         android:textColorHint="#AAAAAA"
         android:layout_weight="1"
-        android:layout_height="36dp"
+        android:layout_height="50dp"
         android:padding="5dip"
         android:layout_margin="5dp"
         android:textSize="15dip"
         android:singleLine="true"
-        android:hint="请输入手机号" />
+        android:hint="请输入手机号"
+        android:background="@drawable/bg_edittext" />
     <Button
         android:id="@+id/LoginReg_GETTELMARK"
-        android:text="获取短信 "
+        android:text="获取验证码"
         android:paddingTop="3dip"
         android:paddingBottom="3dip"
         android:paddingLeft="80dip"
         android:paddingRight="80dip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bluetgray"
+        android:minWidth="200dp"
+        android:minHeight="50dp" />
     <EditText
         android:id="@+id/LoginReg_USERTELMARK"
         android:layout_width="fill_parent"
         android:textColorHint="#AAAAAA"
         android:layout_weight="1"
-        android:layout_height="36dp"
+        android:layout_height="50dp"
         android:padding="5dip"
         android:layout_margin="5dp"
         android:textSize="15dip"
         android:singleLine="true"
+        android:background="@drawable/bg_edittext"
         android:hint="请输入短信验证码" />
     <EditText
         android:id="@+id/LoginReg_USERPASSWORD"
         android:layout_width="fill_parent"
         android:textColorHint="#AAAAAA"
         android:layout_weight="1"
-        android:layout_height="36dp"
+        android:layout_height="50dp"
         android:padding="5dip"
         android:layout_margin="5dp"
         android:textSize="15dip"
@@ -79,20 +107,24 @@
         android:layout_width="fill_parent"
         android:textColorHint="#AAAAAA"
         android:layout_weight="1"
-        android:layout_height="36dp"
+        android:layout_height="50dp"
         android:padding="5dip"
         android:layout_margin="5dp"
         android:textSize="15dip"
         android:singleLine="true"
+        android:background="@drawable/bg_edittext"
         android:hint="请确认密码" />
     <Button
         android:id="@+id/LoginReg_SUBMIT"
-        android:text="确定注册 "
+        android:text="确 认 注 册 "
         android:paddingTop="3dip"
         android:paddingBottom="3dip"
         android:paddingLeft="80dip"
         android:paddingRight="80dip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:background="@color/lightgray"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="200dp"
+        android:minHeight="50dp" />
 </LinearLayout>

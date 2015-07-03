@@ -3,8 +3,84 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
+    android:background="@color/white">
+<!-- top bar -->
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow
+            android:gravity="center_vertical"
+            android:background="@color/orange">
+            <Button
+                android:text="返回"
+                android:id="@+id/MainClient_Back"
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="CHE9000"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+            <ImageView
+                android:id="@+id/MainClient_user"
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/shape_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_user" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/MainClient_QUERY"
+        android:text="维修记录"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/lightred"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/icon_setting"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/MainClient_CHECK"
+        android:text="车况鉴定"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/darkgray"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/icon_search"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/MainClient_ORDERLIST"
+        android:text="订单跟踪"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bluetgray"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/icon_share" />
     <TextView
         android:id="@+id/MainClient_USERINFO"
         android:text="个人信息"
@@ -50,34 +126,4 @@
         android:padding="5dip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/MainClient_QUERY"
-        android:text="维修记录查询"
-        android:paddingTop="3dip"
-        android:paddingBottom="3dip"
-        android:paddingLeft="80dip"
-        android:paddingRight="80dip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
-    <Button
-        android:id="@+id/MainClient_CHECK"
-        android:text="车况上门鉴定"
-        android:paddingTop="3dip"
-        android:paddingBottom="3dip"
-        android:paddingLeft="80dip"
-        android:paddingRight="80dip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
-    <Button
-        android:id="@+id/MainClient_ORDERLIST"
-        android:text="订单跟踪"
-        android:paddingTop="3dip"
-        android:paddingBottom="3dip"
-        android:paddingLeft="80dip"
-        android:paddingRight="80dip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
 </LinearLayout>

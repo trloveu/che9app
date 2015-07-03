@@ -3,33 +3,69 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <TextView
-        android:id="@+id/LoginRegBank_BACK"
-        android:text="返回"
-        android:textStyle="bold"
-        android:textColor="#C0B000"
-        android:gravity="right"
-        android:padding="5dip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    android:background="@color/white">
+<!-- top bar -->
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow
+            android:gravity="center_vertical"
+            android:background="@color/orange">
+            <Button
+                android:text="返回"
+                android:id="@+id/LoginRegBank_BACK"
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="账户退款"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
     <TextView
         android:text="设置退款返回路径："
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_black"
+        android:textColor="@color/black" />
     <TextView
         android:text="请选择银行"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_black"
+        android:textColor="@color/black" />
     <Spinner
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/LoginRegBank_BANKLIST" />
+        android:id="@+id/LoginRegBank_BANKLIST"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_black"
+        android:textColor="@color/black" />
     <TextView
         android:text="请输入卡号"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_black"
+        android:textColor="@color/black" />
     <EditText
         android:id="@+id/LoginRegBank_USERBANKNO"
         android:layout_width="fill_parent"
@@ -40,17 +76,22 @@
         android:layout_margin="5dp"
         android:textSize="15dip"
         android:singleLine="true"
+        android:background="@drawable/bg_edittext"
         android:hint="请输入" />
     <Button
         android:id="@+id/LoginRegBank_USERSUBMIT"
-        android:text="保存"
+        android:text="退款确认"
         android:paddingTop="3dip"
         android:paddingBottom="3dip"
         android:paddingLeft="80dip"
         android:paddingRight="80dip"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bluetgray"
+        android:minWidth="200dp"
+        android:minHeight="50dp" />
     <Button
         android:id="@+id/LoginRegBank_USERSKIP"
         android:text="跳过此步"
@@ -58,7 +99,11 @@
         android:paddingBottom="3dip"
         android:paddingLeft="80dip"
         android:paddingRight="80dip"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:background="@color/lightgray"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="200dp"
+        android:minHeight="50dp" />
 </LinearLayout>

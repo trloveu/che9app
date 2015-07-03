@@ -10,7 +10,6 @@
         android:stretchColumns="1">
     <!-- top bar -->
         <TableRow
-            android:id="@+id/top_bar"
             android:gravity="center_vertical"
             android:background="@color/orange">
             <Button
