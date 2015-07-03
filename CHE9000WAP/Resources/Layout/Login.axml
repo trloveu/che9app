@@ -12,7 +12,7 @@
         <TableRow
             android:id="@+id/top_bar"
             android:gravity="center_vertical"
-            android:background="@drawable/orange">
+            android:background="@color/orange">
             <Button
                 android:text="退出"
                 android:id="@+id/Login_EXIT"
@@ -102,7 +102,7 @@
                 android:paddingLeft="80dip"
                 android:paddingRight="80dip"
                 android:layout_gravity="center_horizontal"
-                android:background="@drawable/orange"
+                android:background="@color/orange"
                 android:textColor="@drawable/white"
                 android:minWidth="200dp"
                 android:minHeight="50dp" />

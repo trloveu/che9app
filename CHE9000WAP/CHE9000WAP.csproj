@@ -208,7 +208,9 @@
     </Content>
     <Content Include="PUB\Mono.Data.Sqlite.dll" />
     <Content Include="PUB\ReadMe.txt" />
-    <AndroidResource Include="Resources\Values\color.xml" />
+    <AndroidResource Include="Resources\Values\color.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\Drawable\icon_logo.png" />
     <AndroidResource Include="Resources\Drawable\bg_edittext.xml" />
     <AndroidResource Include="Resources\Drawable\bg_edittext_normal.xml" />
