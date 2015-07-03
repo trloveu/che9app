@@ -218,7 +218,9 @@
     <AndroidResource Include="Resources\Drawable\shape_bottom_corner_no_top_line.xml" />
     <AndroidResource Include="Resources\Drawable\shape_top_corner_no_bottom_line.xml" />
     <AndroidResource Include="Resources\Drawable\shape_no_corner_without_bottom.xml" />
-    <AndroidResource Include="Resources\Drawable\shape_button.xml" />
+    <AndroidResource Include="Resources\Drawable\shape_button.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\Drawable\icon_menu_act.png" />
     <AndroidResource Include="Resources\Drawable\icon_user.png" />
     <AndroidResource Include="Resources\Drawable\icon_menu.png" />

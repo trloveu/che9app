@@ -3,79 +3,128 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <TextView
-        android:id="@+id/LoginPass_BACK"
-        android:text="返回"
-        android:textStyle="bold"
-        android:textColor="#C0B000"
-        android:gravity="right"
-        android:padding="5dip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/LoginPass_USERTEL"
+    android:background="@color/white">
+    <TableLayout
         android:layout_width="fill_parent"
-        android:textColorHint="#AAAAAA"
-        android:layout_weight="1"
-        android:layout_height="36dp"
-        android:padding="5dip"
-        android:layout_margin="5dp"
-        android:textSize="15dip"
-        android:singleLine="true"
-        android:hint="请输入手机号" />
-    <Button
-        android:id="@+id/LoginPass_GETTELMARK"
-        android:text="获取短信 "
-        android:paddingTop="3dip"
-        android:paddingBottom="3dip"
-        android:paddingLeft="80dip"
-        android:paddingRight="80dip"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
-    <EditText
-        android:id="@+id/LoginPass_USERTELMARK"
+        android:stretchColumns="1">
+    <!-- top bar -->
+        <TableRow
+            android:id="@+id/top_bar"
+            android:gravity="center_vertical"
+            android:background="@color/orange">
+            <Button
+                android:text="返回"
+                android:id="@+id/LoginPass_BACK"
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/shape_button" />
+            <TextView
+                android:id="@+id/top_text"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="CHE9000"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
         android:layout_width="fill_parent"
-        android:textColorHint="#AAAAAA"
-        android:layout_weight="1"
-        android:layout_height="36dp"
-        android:padding="5dip"
-        android:layout_margin="5dp"
-        android:textSize="15dip"
-        android:singleLine="true"
-        android:hint="请输入短信验证码" />
-    <EditText
-        android:id="@+id/LoginPass_USERPASSWORD"
-        android:layout_width="fill_parent"
-        android:textColorHint="#AAAAAA"
-        android:layout_weight="1"
-        android:layout_height="36dp"
-        android:padding="5dip"
-        android:layout_margin="5dp"
-        android:textSize="15dip"
-        android:singleLine="true"
-        android:hint="请输入新密码" />
-    <EditText
-        android:id="@+id/LoginPass_USERPASSCONFRM"
-        android:layout_width="fill_parent"
-        android:textColorHint="#AAAAAA"
-        android:layout_weight="1"
-        android:layout_height="36dp"
-        android:padding="5dip"
-        android:layout_margin="5dp"
-        android:textSize="15dip"
-        android:singleLine="true"
-        android:hint="请确认新密码" />
-    <Button
-        android:id="@+id/LoginPass_SUBMIT"
-        android:text="确定修改密码 "
-        android:paddingTop="3dip"
-        android:paddingBottom="3dip"
-        android:paddingLeft="80dip"
-        android:paddingRight="80dip"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:stretchColumns="1">
+        <TableRow
+            android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/LoginPass_USERTEL"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext"
+                android:padding="5dip"
+                android:layout_margin="10dp"
+                android:textColorHint="#AAAAAA"
+                android:textSize="15dip"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:hint="请输入手机号" />
+        </TableRow>
+        <TableRow
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/LoginPass_GETTELMARK"
+                android:text="获取短信验证码"
+                android:paddingLeft="80dip"
+                android:paddingRight="80dip"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/bluetgray"
+                android:textColor="@color/white"
+                android:minWidth="200dp"
+                android:minHeight="50dp"
+                android:layout_height="match_parent" />
+        </TableRow>
+        <TableRow
+            android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/LoginPass_USERTELMARK"
+                android:layout_width="fill_parent"
+                android:textColorHint="#AAAAAA"
+                android:layout_weight="1"
+                android:layout_height="36dp"
+                android:padding="5dip"
+                android:layout_margin="5dp"
+                android:textSize="15dip"
+                android:singleLine="true"
+                android:background="@drawable/bg_edittext"
+                android:hint="请输入短信验证码" />
+        </TableRow>
+        <TableRow
+            android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/LoginPass_USERPASSWORD"
+                android:layout_width="fill_parent"
+                android:textColorHint="#AAAAAA"
+                android:layout_weight="1"
+                android:layout_height="36dp"
+                android:padding="5dip"
+                android:layout_margin="5dp"
+                android:textSize="15dip"
+                android:singleLine="true"
+                android:background="@drawable/bg_edittext"
+                android:hint="请输入新密码" />
+        </TableRow>
+        <TableRow
+            android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/LoginPass_USERPASSCONFRM"
+                android:layout_width="fill_parent"
+                android:textColorHint="#AAAAAA"
+                android:layout_weight="1"
+                android:layout_height="36dp"
+                android:padding="5dip"
+                android:layout_margin="5dp"
+                android:textSize="15dip"
+                android:singleLine="true"
+                android:background="@drawable/bg_edittext"
+                android:hint="请确认新密码" />
+        </TableRow>
+        <TableRow
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/LoginPass_SUBMIT"
+                android:text="确定修改密码 "
+                android:paddingTop="3dip"
+                android:paddingLeft="80dip"
+                android:paddingRight="80dip"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/lightred"
+                android:textColor="@color/white"
+                android:minWidth="200dp"
+                android:minHeight="50dp" />
+        </TableRow>
+    </TableLayout>
 </LinearLayout>

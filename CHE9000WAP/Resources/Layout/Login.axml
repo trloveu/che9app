@@ -103,7 +103,7 @@
                 android:paddingRight="80dip"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/orange"
-                android:textColor="@drawable/white"
+                android:textColor="@color/white"
                 android:minWidth="200dp"
                 android:minHeight="50dp" />
         </TableRow>
@@ -116,8 +116,8 @@
                 android:paddingLeft="80dip"
                 android:paddingRight="80dip"
                 android:layout_gravity="center_horizontal"
-                android:background="@drawable/lightred"
-                android:textColor="@drawable/white"
+                android:background="@color/lightred"
+                android:textColor="@color/white"
                 android:minWidth="200dp"
                 android:minHeight="50dp" />
         </TableRow>
@@ -130,8 +130,8 @@
                 android:paddingLeft="80dip"
                 android:paddingRight="80dip"
                 android:layout_gravity="center_horizontal"
-                android:background="@drawable/bluetgray"
-                android:textColor="@drawable/white"
+                android:background="@color/bluetgray"
+                android:textColor="@color/white"
                 android:minWidth="200dp"
                 android:minHeight="50dp" />
         </TableRow>
